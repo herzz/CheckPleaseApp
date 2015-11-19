@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".ui.MainActivity"
+                android:background="@drawable/cp2bg">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:text="Start Adventure"
+        android:id="@+id/startButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bill"
+                android:textColor="#000000"
+                android:maxLength="10"
+                android:textColorHint="#803b444f"
+                android:hint="@string/hint_bill_text"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/price_text_size"
+                android:gravity="center_horizontal"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/zipcodeTxt"
+                    android:textColor="#000000"
+                    android:textColorHint="#803b444f"
+                    android:hint="@string/hint_zip_code"
+                    android:maxLength="5"
+                    android:inputType="number"
+                    android:textSize="@dimen/price_text_size"
+                    android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tipPercent"
+                android:textColor="#000000"
+                android:hint="Enter Tip Percent"
+                android:textColorHint="#803b444f"
+                android:maxLength="3"
+                android:inputType="number"
+                tools:text="15"
+                android:textSize="@dimen/price_text_size"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

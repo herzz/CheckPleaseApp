@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:background="@drawable/cp2bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_marginTop="130dp"
+        android:layout_alignParentStart="true"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/Roboto-Regular.ttf"
+        android:text="New Bill"
+        android:id="@+id/startOverButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignBottom="@+id/progressBar"
+        android:id="@+id/tableLayout">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_total"
+                android:textSize="@dimen/price_text_size"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/price_text_size"
+                android:text="-"
+                android:layout_marginLeft="@dimen/price_margin"
+                android:id="@+id/sub_total"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tip"
+                android:textSize="@dimen/price_text_size"
+                android:id="@+id/textView3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:layout_marginLeft="@dimen/price_margin"
+                android:textSize="@dimen/price_text_size"
+                android:id="@+id/tip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textSize="@dimen/price_text_size"
+                android:id="@+id/textView5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/price_margin"
+                android:textSize="@dimen/price_text_size"
+                android:text="-"
+                android:id="@+id/total"/>
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>
