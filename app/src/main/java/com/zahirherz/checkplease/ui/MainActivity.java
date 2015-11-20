@@ -43,6 +43,8 @@ public class MainActivity extends Activity {
 
         mSharedPreferences = getSharedPreferences(PREFS_FILE, Context.MODE_PRIVATE);
         mEditor = mSharedPreferences.edit();
+        mEditor.apply();
+
         String editTextString = mSharedPreferences.getString(KEY_EDITTEXT, "");
         mZipCodeTxt.setText(editTextString);
 
