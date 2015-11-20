@@ -12,4 +12,5 @@
     <string name="bill_error">You did not enter a bill amount</string>
     <string name="tip_error">You didn\'t enter a tip amount!</string>
     <string name="zipcode_error">You didn\'t enter valid 5 digit zipcode</string>
+    <string name="initial_bill">Purchase</string>
 </resources>

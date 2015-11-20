@@ -39,7 +39,7 @@ public class StoryActivity extends Activity {
     private String mBill;
     private String mTipPercent;
 
-    @InjectView(R.id.sub_total) TextView mSubTotal;
+    @InjectView(R.id.initial_bill) TextView mInitialBill;
     @InjectView(R.id.tip) TextView mTip;
     @InjectView(R.id.total) TextView mTotal;
     @InjectView(R.id.progressBar) ProgressBar mProgressBar;
@@ -64,10 +64,7 @@ public class StoryActivity extends Activity {
         mZipcode = intent.getStringExtra("zipcode");
         mBill = intent.getStringExtra("bill");
         mTipPercent = intent.getStringExtra("tipPercent");
-        Log.d(TAG, mZipcode);
-        if (mZipcode == null) {
-            mZipcode = "90044";
-        }
+
         getTaxRate();
 
     }
@@ -79,7 +76,6 @@ public class StoryActivity extends Activity {
         } else {
             mProgressBar.setVisibility(View.INVISIBLE);
         }
-
     }
 
     private void getTaxRate() {
@@ -153,10 +149,10 @@ public class StoryActivity extends Activity {
     private Tax getTaxDetails(String jsonData) throws JSONException {
         JSONObject forecast = new JSONObject(jsonData);
         double taxrate = forecast.getDouble("totalRate");
-        Log.d(TAG, taxrate + "");
+
         Tax tax = new Tax();
         tax.setRate(taxrate);
-        Log.d(TAG, "hello " + tax.getRate());
+
         return tax;
     }
 
@@ -168,18 +164,15 @@ public class StoryActivity extends Activity {
         double taxRate = Double.parseDouble(mTaxRate);
         double tipPercent = Double.parseDouble(mTipPercent) /100 ;
         double beforetax;
-        double minusTax;
         double tip;
         double total;
 
-        String minusTaxLabel;
+        String purchaseLabel;
         String tipLabel;
         String totalLabel;
 
+        purchaseLabel = "$" + Double.toString(bill);
         beforetax = bill * taxRate;
-        minusTax = bill - beforetax;
-        minusTax = roundTwoDecimals(minusTax);
-        minusTaxLabel = "$" + Double.toString(minusTax);
 
         tip = (bill - beforetax) * tipPercent;
         tip = roundTwoDecimals(tip);
@@ -189,7 +182,7 @@ public class StoryActivity extends Activity {
         total = roundTwoDecimals(total);
         totalLabel = "$" + Double.toString(total);
 
-        mSubTotal.setText(minusTaxLabel);
+        mInitialBill.setText(purchaseLabel);
         mTip.setText(tipLabel);
         mTotal.setText(totalLabel);
 
