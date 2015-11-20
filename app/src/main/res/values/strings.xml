@@ -6,11 +6,12 @@
     <string name="title_activity_story">StoryActivity</string>
     <string name="hint_bill_text">Enter bill total</string>
     <string name="hint_zip_code">Enter Zipcode</string>
-    <string name="sub_total">Before Tax</string>
     <string name="tip">Tip</string>
     <string name="total">Total</string>
     <string name="bill_error">You did not enter a bill amount</string>
     <string name="tip_error">You didn\'t enter a tip amount!</string>
     <string name="zipcode_error">You didn\'t enter valid 5 digit zipcode</string>
     <string name="initial_bill">Purchase</string>
+    <string name="new_bill_label">New Bill</string>
+    <string name="value_empty">-</string>
 </resources>

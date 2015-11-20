@@ -16,7 +16,7 @@
         android:layout_alignParentStart="true"
         tools:ignore="MissingPrefix"
         fontPath="fonts/Roboto-Regular.ttf"
-        android:text="New Bill"
+        android:text="@string/new_bill_label"
         android:id="@+id/startOverButton"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/price_text_size"
-                android:text="-"
+                android:text="@string/value_empty"
                 android:layout_marginLeft="@dimen/price_margin"
                 android:id="@+id/initial_bill"/>
         </TableRow>
@@ -75,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="-"
+                android:text="@string/value_empty"
                 android:layout_marginLeft="@dimen/price_margin"
                 android:textSize="@dimen/price_text_size"
                 android:id="@+id/tip"/>
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/price_margin"
                 android:textSize="@dimen/price_text_size"
-                android:text="-"
+                android:text="@string/value_empty"
                 android:id="@+id/total"/>
         </TableRow>
     </TableLayout>
