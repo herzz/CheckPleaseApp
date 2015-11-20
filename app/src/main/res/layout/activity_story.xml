@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/price_text_size"
                 android:text="@string/value_empty"
-                android:layout_marginLeft="@dimen/price_margin"
+                android:layout_marginStart="@dimen/price_margin"
                 android:id="@+id/initial_bill"/>
         </TableRow>
 
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/value_empty"
-                android:layout_marginLeft="@dimen/price_margin"
+                android:layout_marginStart="@dimen/price_margin"
                 android:textSize="@dimen/price_text_size"
                 android:id="@+id/tip"/>
         </TableRow>
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/price_margin"
+                android:layout_marginStart="@dimen/price_margin"
                 android:textSize="@dimen/price_text_size"
                 android:text="@string/value_empty"
                 android:id="@+id/total"/>
