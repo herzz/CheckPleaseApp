@@ -14,4 +14,6 @@
     <string name="initial_bill">Purchase</string>
     <string name="new_bill_label">New Bill</string>
     <string name="value_empty">-</string>
+    <string name="start_button_label">Start Adventure</string>
+    <string name="hint_tip_percent">Enter Tip Percent</string>
 </resources>

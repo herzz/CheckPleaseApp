@@ -29,13 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="total_htc.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/total_htc.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new_bill_htc.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_bill_htc.png">
           <provider selected="true" editor-type-id="images">
@@ -104,21 +97,46 @@
       <file leaf-file-name="activity_story.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_story.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10948905">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30656934">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
+                <element signature="e#404#437#0" expanded="true" />
                 <element signature="e#832#856#0" expanded="true" />
                 <element signature="e#1942#1964#0" expanded="true" />
+                <element signature="e#1998#2022#0" expanded="true" />
+                <element signature="e#2229#2253#0" expanded="true" />
                 <element signature="e#2283#2304#0" expanded="true" />
                 <element signature="e#2348#2369#0" expanded="true" />
-                <element signature="e#2761#2774#0" expanded="true" />
-                <element signature="e#3036#3057#0" expanded="true" />
-                <element signature="e#3101#3122#0" expanded="true" />
-                <element signature="e#3156#3180#0" expanded="true" />
-                <element signature="e#3563#3578#0" expanded="true" />
-                <element signature="e#3854#3875#0" expanded="true" />
-                <element signature="e#3909#3933#0" expanded="true" />
-                <element signature="e#3963#3984#0" expanded="true" />
+                <element signature="e#2412#2433#0" expanded="true" />
+                <element signature="e#2825#2838#0" expanded="true" />
+                <element signature="e#2872#2896#0" expanded="true" />
+                <element signature="e#3100#3121#0" expanded="true" />
+                <element signature="e#3165#3186#0" expanded="true" />
+                <element signature="e#3229#3250#0" expanded="true" />
+                <element signature="e#3284#3308#0" expanded="true" />
+                <element signature="e#3691#3706#0" expanded="true" />
+                <element signature="e#3740#3764#0" expanded="true" />
+                <element signature="e#3982#4003#0" expanded="true" />
+                <element signature="e#4046#4067#0" expanded="true" />
+                <element signature="e#4101#4125#0" expanded="true" />
+                <element signature="e#4155#4176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.793103">
+              <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+              <folding>
+                <element signature="e#932#960#0" expanded="true" />
+                <element signature="e#1975#1999#0" expanded="true" />
+                <element signature="e#3442#3468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1612,6 +1630,7 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_story.xml" />
       </list>
     </option>
@@ -1804,7 +1823,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1822,19 +1841,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2158,17 +2165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/zahirherz/checkplease/ui/StoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2241,23 +2237,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.793103">
+          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+          <folding>
+            <element signature="e#932#960#0" expanded="true" />
+            <element signature="e#1975#1999#0" expanded="true" />
+            <element signature="e#3442#3468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_story.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10948905">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30656934">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
+            <element signature="e#404#437#0" expanded="true" />
             <element signature="e#832#856#0" expanded="true" />
             <element signature="e#1942#1964#0" expanded="true" />
+            <element signature="e#1998#2022#0" expanded="true" />
+            <element signature="e#2229#2253#0" expanded="true" />
             <element signature="e#2283#2304#0" expanded="true" />
             <element signature="e#2348#2369#0" expanded="true" />
-            <element signature="e#2761#2774#0" expanded="true" />
-            <element signature="e#3036#3057#0" expanded="true" />
-            <element signature="e#3101#3122#0" expanded="true" />
-            <element signature="e#3156#3180#0" expanded="true" />
-            <element signature="e#3563#3578#0" expanded="true" />
-            <element signature="e#3854#3875#0" expanded="true" />
-            <element signature="e#3909#3933#0" expanded="true" />
-            <element signature="e#3963#3984#0" expanded="true" />
+            <element signature="e#2412#2433#0" expanded="true" />
+            <element signature="e#2825#2838#0" expanded="true" />
+            <element signature="e#2872#2896#0" expanded="true" />
+            <element signature="e#3100#3121#0" expanded="true" />
+            <element signature="e#3165#3186#0" expanded="true" />
+            <element signature="e#3229#3250#0" expanded="true" />
+            <element signature="e#3284#3308#0" expanded="true" />
+            <element signature="e#3691#3706#0" expanded="true" />
+            <element signature="e#3740#3764#0" expanded="true" />
+            <element signature="e#3982#4003#0" expanded="true" />
+            <element signature="e#4046#4067#0" expanded="true" />
+            <element signature="e#4101#4125#0" expanded="true" />
+            <element signature="e#4155#4176#0" expanded="true" />
           </folding>
         </state>
       </provider>
